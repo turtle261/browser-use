@@ -133,6 +133,7 @@ async def test_single_step():
 		ChatOpenAI(model='gpt-4.1'),
 		ChatAnthropic(model='claude-3-5-sonnet-latest'),  # Using haiku for cost efficiency
 		ChatAzureOpenAI(model='gpt-4o-mini'),
+		# ChatLiteLLM(model='gpt-3.5-turbo'),  # Commented out to avoid requiring additional dependencies in tests
 	]
 
 	for llm in models:

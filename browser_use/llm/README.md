@@ -8,6 +8,7 @@ We officially support the following LLMs:
 - Groq
 - Ollama
 - DeepSeek
+- LiteLLM (Universal provider supporting 100+ models)
 
 ## Migrating from LangChain
 
